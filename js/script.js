@@ -5,7 +5,7 @@ var bulletinBoardEl = document.querySelector('#bulletin-board')
 var handleResponse = function(bulletinsArray) {
 	console.log(bulletinsArray)
 
-	var html = '<h2>bulletins loaded!</h2>'
+	var html = '<h2>bulletins are here!</h2>'
 	// FOR every bulletin, we will write an HTML element and insert the content.
 
 	for (var position = 0; position < bulletinsArray.length; position += 1) {
