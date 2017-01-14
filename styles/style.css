@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+	font-family: "Nothing You Could Do",cursive;
+}
+
+html {
+	background: #F4E8C1;
+}
+
+h1,h2,h3,h4,a,button {
+	font-family: "Roboto",sans-serif;
+	color: #331E38;
+}
+
+h1 {
+	text-align: center;
+	font-size: 64px;
+	max-width: 820px;
+	margin: 2rem auto;
+	padding: 1rem 5rem;
+	border-bottom: 1px solid #331E38;
+}
+
+#container {
+	max-width: 900px;
+	margin: auto;
+}
+
+form.bulletin {
+	width: 45%;
+	margin: auto;
+	text-align: center;
+}
+
+form input, form textarea, form button {
+	display: block;
+	width: 80%;
+	font-size: 1.5rem;
+	margin: 1rem auto;
+	padding: 1rem;
+}
+form input, form textarea {
+	background:  #F4E8C1;
+	outline: none;
+	border: 1px solid #331E38;
+	transition: .2s background ease;
+}
+
+form input:focus, form textarea:focus {
+	background: #A0C1B9;
+}
+
+form button {
+	width: 150px;
+}
+#bulletin-board {
+	font-size: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.bulletin {
+	background: #A0C1B9;
+	font-size: medium;
+	border: 1px solid black;
+	-webkit-box-shadow: 2.5px 2.5px 2.5px 0px #331E38;
+	-moz-box-shadow: 2.5px 2.5px 2.5px 0px #331E38;
+	box-shadow: 2.5px 2.5px 2.5px 0px #331E38;
+	padding: 1rem;
+	border: 1px solid #331E38;
+	flex: 1;
+	margin: 40px;
+	flex-basis: 200px;
+}
+
+.bulletin h3 {
+	text-align: center;
+}
